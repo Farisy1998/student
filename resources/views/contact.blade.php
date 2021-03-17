@@ -30,36 +30,27 @@
     <div class="row">
         <div class="col col-12 col-sm-4 col-md-4 col-lg-4"></div>
         <div class="col col-12 col-sm-4 col-md-4 col-lg-4">
-            <center><h2><u>Register here</u></h2></center>
+        <center><h2><u>Contact Page</u></h2></center>
+        <br>
+            <table class="table table-borderless">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>Message</td>
+                    <td><textarea cols="5" rows="5" class="form-control"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Phone no:</td>
+                    <td><input type="text" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button class="btn btn-success">Submit</button></td>
+                </tr>
+            </table>
         </div>
-    </div>
-    <div class="row">
-    <div class="col col-12 col-sm-4 col-md-4 col-lg-4"></div>
-    <div class="col col-12 col-sm-4 col-md-4 col-lg-4">
-    <br>
-        <table class="table table-borderless">
-            <tr>
-                <td>Name</td>
-                <td><input type="text" class="form-control"></td>
-            </tr>
-            <tr>
-                <td>Roll no:</td>
-                <td><input type="text" class="form-control"></td>
-            </tr>
-            <tr>
-                <td>Admission no:</td>
-                <td><input type="text" class="form-control"></td>
-            </tr>
-            <tr>
-                <td>College</td>
-                <td><input type="text" class="form-control"></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><button class="btn btn-success">Register</button></td>
-            </tr>
-        </table>
-    </div>
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
